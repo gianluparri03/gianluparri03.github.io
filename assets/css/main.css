@@ -1,0 +1,15 @@
+html, body {
+	max-height: 100%;
+	width: 100%;
+
+	margin: 0;
+
+	font-family: 'Source Code Pro', monospace;
+
+	background-color: #212121;
+	color: #9e9e9e;
+}
+
+/*
+	Grigio:		9e9e9e -> 757575
+*/

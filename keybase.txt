@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gianluparri03
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gianluparri03.github.io
+  * I am gianluparri03 (https://keybase.io/gianluparri03) on keybase.
+  * I have a public key ASBE_tH9c1a3VkIXdfvZ6t5e5DcDsRJwV1v7jQBLNbwzEQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012044fed1fd7356b756421775fbd9eade5ee43703b11270575bfb8d004b35bc33110a",
+      "host": "keybase.io",
+      "kid": "012044fed1fd7356b756421775fbd9eade5ee43703b11270575bfb8d004b35bc33110a",
+      "uid": "c1ade4de93b4b40042bddc2407c00519",
+      "username": "gianluparri03"
+    },
+    "merkle_root": {
+      "ctime": 1568039527,
+      "hash": "c87d5d5dae1aa85d4a7ad5f4a5a0a17cbf6052a181ba0da4af4f4220bd03ef815d25c28ee837d2bb47641cbbc5798bd30603af32a74bb8e19649894ecf9ace9f",
+      "hash_meta": "8a9f3a40f0690d13915166cb02637fc20a9481ed7c517441fa17fcdf1bf120e7",
+      "seqno": 6207544
+    },
+    "service": {
+      "entropy": "BqXOphxKRYorpE/TiV0Fmtj8",
+      "hostname": "gianluparri03.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.0"
+  },
+  "ctime": 1568039538,
+  "expire_in": 504576000,
+  "prev": "a745a40942d0f33d744459fd576180589643b4bed6e8aeb724731ea135f3115f",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRP7R/XNWt1ZCF3X72ereXuQ3A7EScFdb+40ASzW8MxEKp3BheWxvYWTESpcCBsQgp0WkCULQ8z10RFn9V2GAWJZDtL7W6K63JHMeoTXzEV/EIKya7Qs5kl89nm9SZ9NjQsPD1smOYPt58YIou8eLJfZnAgHCo3NpZ8RAvOeZIsZFk/RZ+eSDC8Qh+6FupHSgWf5DDziGJdNvnKRlllYXLJgm0JMPOB93hzZ49d3/jLRiL+EiiIlmWJBQB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIZM5pG2+1JPNPyh0Lftg1r96ziF52xxg2h6kG1yHAu4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gianluparri03
+
+==================================================================
