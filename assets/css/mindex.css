@@ -1,0 +1,8 @@
+#avatar {
+	width: 14vh;
+	height: 14vh;
+
+	border-radius: 14vh;
+}
+
+#links { flex-direction: column; }
