@@ -10,6 +10,16 @@ html, body {
 	color: #9e9e9e;
 }
 
-/*
-	Grigio:		9e9e9e -> 757575
-*/
+#index, #source {
+	position: absolute;
+	bottom: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-bottom: 2vh;
+	color: #9e9e9e;
+}
+
+#index:hover, #source:hover { color: white; }
+
+#index { left: 0;}
+#source { right: 0;}

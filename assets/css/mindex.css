@@ -2,7 +2,17 @@
 	width: 14vh;
 	height: 14vh;
 
+	margin-right: 0;
+	margin-bottom: 1vh;
+	margin-right: auto;
+	margin-left: auto;
 	border-radius: 14vh;
+}
+
+#header {
+	margin-left: 0;
+	flex-direction: column;
+	text-align: center;
 }
 
 #links { flex-direction: column; }
