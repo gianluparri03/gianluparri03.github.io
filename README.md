@@ -1,6 +1,6 @@
-# New Portfolio
+# gianluparri03.github.io
 
-In this repo you can see the source code for my future new portfolio (today it's available at [gianluparri03.github.io/new_portfolio](https://gianluparri03.github.io/new_portfolio)) that I created for my own.
+In this repo you can see the source code for my future new portfolio (available at [gianluparri03.github.io](https://gianluparri03.github.io) that I created for my own.
 
 ### Fonts and Icons
 
@@ -12,7 +12,7 @@ For this project I used:
 
 That's just a place where I write all the colors used. It's quite useless.
 
-|    212121    	| 757575 	| 9E9E9E 	|  FFFFFF  	|
-|:------------:	|:------:	|:------:	|:--------:	|
-|    darkest   	|        	|        	| lightest 	|
-| (background) 	|        	|        	|          	|                   
+|    #212121   | #757575 | #9E9E9E |  #FFFFFF |
+|:------------:|:-------:|:-------:|:--------:|
+|    darkest   |         |         | lightest |
+| (background) |         |         |  (hover) |

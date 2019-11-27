@@ -1,4 +1,10 @@
-#avatar {
+header {
+	margin-left: 0;
+	flex-direction: column;
+	text-align: center;
+}
+
+#header-icon {
 	width: 14vh;
 	height: 14vh;
 
@@ -7,12 +13,6 @@
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 14vh;
-}
-
-#header {
-	margin-left: 0;
-	flex-direction: column;
-	text-align: center;
 }
 
 #links { flex-direction: column; }
