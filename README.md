@@ -6,7 +6,8 @@ In this repo you can see the source code for my future new portfolio (available 
 
 For this project I used:
 - Icons from [Font Awesome](https://fontawesome.com/)
-- Fonts from [Google Fonts](https://fonts.google.com/) ([Fira Sans](https://fonts.google.com/specimen/Fira+Sans) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro))
+- [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) _(the sans-serif font)_ from [Google Fonts](https://fonts.google.com/)
+- [Hack](https://sourcefoundry.org/hack/) _(the monospace font)_ from [Source Foundry](https://sourcefoundry.org)
 
 ### Colors
 
