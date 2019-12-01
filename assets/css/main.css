@@ -8,6 +8,8 @@ html, body {
 
 	font-family: 'Hack', monospace;
 
+	font-size: 1em;
+
 	background-color: #212121;
 	color: #9e9e9e;
 }
@@ -16,6 +18,13 @@ html, body {
 	background-color: #9e9e9e;
 	color: #212121;
 }
+
+a {
+	color: #9e9e9e;
+	text-decoration: none;
+}
+
+a:hover { color: white !important; }
 
 /* HEADER */
 
@@ -67,12 +76,7 @@ header {
 	padding-left: 2vw;
 	padding-right: 2vw;
 	padding-bottom: 2vh;
-
-	text-decoration: none;
-	color: #9e9e9e;
 }
-
-#index:hover, #source:hover { color: white; }
 
 #index { left: 0;}
 #source { right: 0;}

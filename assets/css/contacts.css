@@ -1,0 +1,41 @@
+main {
+	margin-bottom: 7vh;
+	margin-top: 15vh;
+	margin-right: 3vw;
+	margin-left: 5vw;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: min-content;
+
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.section-icon {
+	margin-right: 15px;
+	font-size: 3em;
+	color: #757575;
+}
+
+.section-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-name {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.6em;
+}
+
+.section a { color: #757575; }
