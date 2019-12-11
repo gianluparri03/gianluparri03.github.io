@@ -1,0 +1,8 @@
+.line::before {
+	margin-right: 3vw;
+	border-right: 2px solid #757575;
+	padding-left: 5vw;
+	padding-right: 4vw;
+	padding-top: 2vh;
+	padding-top: 2vh;
+}

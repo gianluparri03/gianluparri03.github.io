@@ -13,7 +13,10 @@ For this project I used:
 
 That's just a place where I write all the colors used. It's quite useless.
 
-|    #212121   | #757575 | #9E9E9E |  #FFFFFF |
-|:------------:|:-------:|:-------:|:--------:|
-|    darkest   |         |         | lightest |
-| (background) |         |         |  (hover) |
+|    `#121212`   | `#212121` | `#757575` | `#9E9E9E` |  `#FFFFFF` |
+|:--------------:|:---------:|:---------:|:---------:|:----------:|
+|     darkest    |           |           |           |  lightest  |
+|  (background)  |           |           |           |   (hover)  |
+
+
+The blue is `#2979ff`.

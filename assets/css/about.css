@@ -1,0 +1,27 @@
+main {
+	margin-top: 9vh;
+	counter-reset: line;
+}
+
+.line {
+	width: 90%;
+	display: flex;
+}
+
+.line::before {
+	counter-increment: line;
+	content: counter(line);
+
+	margin-right: 1vw;
+	border-right: 2px solid #757575;
+	padding-left: 2vw;
+	padding-right: 1vw;
+	padding-top: 1vh;
+	padding-top: 1vh;
+
+	background-color: #212121;
+}
+
+.colored {
+	color: red;
+}

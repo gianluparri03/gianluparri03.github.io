@@ -7,10 +7,9 @@ html, body {
 	margin: 0;
 
 	font-family: 'Hack', monospace;
-
 	font-size: 1em;
 
-	background-color: #212121;
+	background-color: #121212;
 	color: #9e9e9e;
 }
 
@@ -24,7 +23,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover { color: #4fc3f7 !important; }
+a:hover { color: #2979ff !important; }
 
 /* HEADER */
 
@@ -40,9 +39,7 @@ header {
 
 #header-icon {
 	margin-right: 2vw;
-
 	font-size: 5em;
-
 	color: #757575;
 }
 
@@ -68,8 +65,10 @@ header {
 
 /* INDEX, SOURCE */
 
+main { margin-bottom: 10vh; }
+
 #index, #source {
-	position: absolute;
+	position: fixed;
 
 	bottom: 0;
 
