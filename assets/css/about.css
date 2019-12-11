@@ -1,4 +1,4 @@
-.code {
+main {
 	margin-top: 9vh;
 	margin-right: 15vw;
 
@@ -16,6 +16,8 @@
 	padding-left: 2vw;
 	padding-right: 1vw;
 }
+
+.line-content { white-space: nowrap; }
 
 .first-line::before, .first-line-content { padding-top: 1vh; }
 .last-line::before, .last-line-content { padding-bottom: 1vh; }
