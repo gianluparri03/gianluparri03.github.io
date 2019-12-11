@@ -1,27 +1,31 @@
-main {
+.code {
 	margin-top: 9vh;
+	margin-right: 15vw;
+
 	counter-reset: line;
 }
 
-.line {
-	width: 90%;
-	display: flex;
-}
+.line { display: flex; }
 
 .line::before {
 	counter-increment: line;
-	content: counter(line);
+	content: counter(line, decimal-leading-zero);
 
 	margin-right: 1vw;
 	border-right: 2px solid #757575;
 	padding-left: 2vw;
 	padding-right: 1vw;
-	padding-top: 1vh;
-	padding-top: 1vh;
-
-	background-color: #212121;
 }
 
-.colored {
-	color: red;
-}
+.first-line::before, .first-line-content { padding-top: 1vh; }
+.last-line::before, .last-line-content { padding-bottom: 1vh; }
+
+.tab { margin-right: 3vw; }
+
+/* colors from https://github.com/twolfson/sublime-files/blob/master/Packages/Color%20Scheme%20-%20Default/Monokai.sublime-color-scheme */
+.line-content { color: hsl(60, 30%, 96%); }
+.red { color: hsl(338, 95%, 56%); }
+.blue { color: hsl(190, 81%, 67%); }
+.orange { color: hsl(32, 98%, 56%); }
+.yellow { color: hsl(54, 70%, 68%); }
+.gray { color: hsl(55, 8%, 26%); font-weight: bold; }
