@@ -1,8 +1,5 @@
 main {
-	margin-bottom: 7vh;
-	margin-top: 15vh;
-	margin-right: 3vw;
-	margin-left: 5vw;
+	margin: 15vh 3vw 7vh 5vw;
 
 	display: flex;
 	flex-direction: row;
@@ -12,10 +9,7 @@ main {
 .section {
 	width: min-content;
 
-	margin-bottom: 2vh;
-	margin-top: 2vh;
-	margin-right: 3vw;
-	margin-left: 3vw;
+	margin: 2vh 3vw 2vw 3vw;
 
 	display: flex;
 	flex-direction: row;
