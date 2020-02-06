@@ -15,10 +15,10 @@ That's just a place where I write all the colors used. It's quite useless.
 
 ### Gray Scale
 
-|    `#121212`   | `#212121` | `#757575` | `#9E9E9E` |  `#FFFFFF` |
-|:--------------:|:---------:|:---------:|:---------:|:----------:|
-|     darkest    |           |           |           |  lightest  |
-|  (background)  |           |           |           |   (hover)  |
+|    `#212121`   | `#757575` | `#9E9E9E` |  `#FFFFFF` |
+|:--------------:|:---------:|:---------:|:----------:|
+|     darkest    |           |           |  lightest  |
+|  (background)  |           |           |   (hover)  |
 
 ### Code color scheme
 

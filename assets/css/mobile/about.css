@@ -1,0 +1,14 @@
+main { margin-right: 3vw; }
+
+.line::before {
+	margin-right: 3vw;
+	border-right: 2px solid #757575;
+	padding-left: 4vw;
+	padding-right: 2vw;
+}
+
+.first-line::before, .first-line-content { padding-top: 2vh; }
+.last-line::before, .last-line-content { padding-bottom: 2vh; }
+
+.tab { margin-right: 5vw; }
+

@@ -9,21 +9,14 @@ html, body {
 	font-family: 'Hack', monospace;
 	font-size: 1em;
 
-	background-color: #121212;
+	background-color: #212121;
 	color: #9e9e9e;
-}
-
-::selection {
-	background-color: #9e9e9e;
-	color: #121212;
 }
 
 a {
 	color: #9e9e9e;
 	text-decoration: none;
 }
-
-a:hover { color: white; }
 
 /* HEADER */
 
@@ -75,7 +68,10 @@ main { margin-bottom: 10vh; }
 	padding-left: 2vw;
 	padding-right: 2vw;
 	padding-bottom: 2vh;
+
 }
+	
+#index:hover, #source:hover { color: white; }
 
 #index { left: 0;}
 #source { right: 0;}

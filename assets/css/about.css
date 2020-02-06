@@ -1,6 +1,6 @@
 main {
 	margin-top: 9vh;
-	margin-right: 15vw;
+	margin-left: 2vw;
 
 	counter-reset: line;
 }
@@ -24,10 +24,9 @@ main {
 
 .tab { margin-right: 3vw; }
 
-/* colors from https://github.com/twolfson/sublime-files/blob/master/Packages/Color%20Scheme%20-%20Default/Monokai.sublime-color-scheme */
 .line-content { color: hsl(60, 30%, 96%); }
 .red { color: hsl(338, 95%, 56%); }
 .blue { color: hsl(190, 81%, 67%); }
 .orange { color: hsl(32, 98%, 56%); }
 .yellow { color: hsl(54, 70%, 68%); }
-.gray { color: hsl(55, 8%, 26%); font-weight: bold; }
+.gray { color: hsl(55, 8%, 26%); }
