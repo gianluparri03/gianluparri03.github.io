@@ -2,6 +2,8 @@ main {
 	margin-top: 9vh;
 	margin-left: 2vw;
 
+	height: 100%;
+
 	counter-reset: line;
 }
 

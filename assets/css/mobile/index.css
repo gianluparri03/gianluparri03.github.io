@@ -8,11 +8,12 @@ header {
 	width: 14vh;
 	height: 14vh;
 
-	margin-right: 0;
-	margin-bottom: 1vh;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto auto 1vh auto;
 	border-radius: 14vh;
 }
 
-#links { flex-direction: column; }
+#links {
+	margin-top: 10vh;
+
+	flex-direction: column;
+}
