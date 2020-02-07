@@ -1,4 +1,4 @@
-main { margin-right: 3vw; margin-bottom: 0; }
+main { margin-right: 3vw; max-height: 100%; }
 
 .line::before {
 	margin-right: 3vw;

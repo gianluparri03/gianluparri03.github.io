@@ -31,4 +31,5 @@ main {
 .blue { color: hsl(190, 81%, 67%); }
 .orange { color: hsl(32, 98%, 56%); }
 .yellow { color: hsl(54, 70%, 68%); }
-.gray { color: hsl(55, 8%, 26%); }
+.gray { color: hsl(55, 8%, 26%); font-weight: bold; }
+.purple { color: hsl(261, 100%, 75%); }
