@@ -1,11 +1,8 @@
 html, body {
 	max-height: 100%;
+	margin: 3vh 3vw 5vh 3vw;
 
 	font-family: 'Hack', monospace;
-
-	margin-left: 5vw;
-	margin-top: 3vh;
-
 	background-color: #212121;
 	color: #9e9e9e;
 }
@@ -16,7 +13,8 @@ a {
 }
 
 a:hover { 
-	background-color: #9e9e9e; color: #212121;
+	background-color: #9e9e9e;
+	color: #212121;
 }
 
 #title {

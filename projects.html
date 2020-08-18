@@ -1,56 +1,34 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-	<title>Projects - Gianluca Parri</title>
+	<head>
+		<title>Projects - Gianluca Parri</title>
 
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Gianluca 'gianluparri03' Parri's Portfolio, Learning Developer.">
-	<meta name="author" content="Gianluca Parri">
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Gianluca 'gianluparri03' Parri's Portfolio, Learning Developer.">
+		<meta name="author" content="Gianluca Parri">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/favicon.ico">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/favicon.ico">
 
-	<!-- Imports -->
-	<link rel="stylesheet" href="assets/main.css">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
-</head>
+		<!-- Imports -->
+		<link rel="stylesheet" href="assets/main.css">
+		<link rel="stylesheet" href="assets/projects.css">
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
+		<script src="assets/projects.js"></script>
+	</head>
 
-<body>
-	<span id="title">Projects</span>
+	<body onload="loadProjects();">
+		<span id="title">Projects</span>
 
-	<main>
-		<b>[Kevin]</b><br>
-		> language: 	Python; HTML; CSS;<br>
-		> frameworks:	Flask;<br>
-		> description:	<i>A brand new social media</i><br>
-		> tags: 		restapi; social; webserver; sqlite3;<br>
-		> github: 		<a href="https://github.com/trinitrotoluenisti/kevin" target="_blank">Link</a><br><br>
+		<main>
+			<span>Loading projects from github...</span>
+		</main>
 
-		<b>[AUDP]</b><br>
-		> language: 	Go;<br>
-		> frameworks:	gorilla/mux;<br>
-		> description:	<i>An Unnamed Domotic Project</i><br>
-		> tags: 		restapi; domotic; webserver; sqlite3;<br>
-		> github: 		<a href="https://github.com/gianluparri03/audp" target="_blank">Link</a><br><br>
-
-		<b>[Ruffini]</b><br>
-		> language: 	Python;<br>
-		> description:	<i>Polynomials for Python</i><br>
-		> tags: 		library; math; polynomial<br>
-		> github: 		<a href="https://github.com/gianluparri03/ruffini" target="_blank">Link</a><br><br>
-
-		<b>[Portfolio]</b><br>
-		> language: 	HTML; CSS<br>
-		> description:	<i>This One!</i><br>
-		> tags: 		portfolio; website; useless;<br>
-		> github: 		<a href="https://github.com/gianluparri03/gianluparri03.github.io" target="_blank">Link</a><br><br>
-	</main>
-
-	<a href="index.html" id="index">> Index</a>
-	<a href="https://github.com/gianluparri03/new_portfolio" id="source">> Source</a>
-</body>
+		<a href="index.html" id="index">> Index</a>
+		<a href="https://github.com/gianluparri03/new_portfolio" id="source">> Source</a>
+	</body>
 </html>
