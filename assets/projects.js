@@ -15,8 +15,15 @@ function loadProjects() {
         // Adds every project to the page
         projects.forEach(function (project) {
             div = document.createElement("div");
-            div.innerHTML = project.join("<br>");
-            main.appendChild(div);
+            Object.keys(project).forEach(function(key) {
+                if (key == "_title") {
+                    div.innerHTML = "<b>[" + project._title + "]</b><br>"
+                    return
+                }
+
+                div.innerHTML += "> " + key + ": " + project[key] + "<br>"
+            });
+           main.appendChild(div);
         });
     }, 1000);
 }
