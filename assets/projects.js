@@ -1,35 +1,39 @@
 function loadProjects() {
-    // Makes a request at github
+    // Fetches the gist
     var request = new XMLHttpRequest();
-    request.onreadystatechange = function () { postCallback(request); };
     request.open("GET", "https://gist.githubusercontent.com/gianluparri03/d3ed8d776078554b37c77687aec54010/raw", false);
+    request.onreadystatechange = function() { setTimeout(() => postCallback(request), 750); };
     request.send(null);
 }
 
 function postCallback(request) {
     // Removes loading text
-    document.getElementsByClassName("loading-anim")[0].style.display = "none";
-    // Check for errors
-    if (request.readyState == 4 && request.status == 200) {
+    document.getElementById("loading").style.display = "none";
+
+    // If the gist has been fetched correctly
+    if (request.status == 200) {
         // Parses the JSON
         projects = JSON.parse(request.responseText);
 
         // Adds every project to the page
         projects.forEach(function (project) {
             div = document.createElement("div");
+            div.classList.add("project");
             Object.keys(project).forEach(function (key) {
                 if (key == "_title") {
                     div.innerHTML = "<b>[" + project._title + "]</b><br>"
-                    return
+                } else if (key == "_desc") {
+                    div.innerHTML += "<i>" + project._desc + "</i><br>"
+                } else {
+                    div.innerHTML += "> " + key + ": " + project[key] + "<br>"
                 }
-
-                div.innerHTML += "> " + key + ": " + project[key] + "<br>"
             });
-            main.appendChild(div);
+
+            // Saves the div
+            document.getElementsByTagName("main")[0].appendChild(div);
         });
-    }
-    else {
-        // Handle errors
-        document.getElementById('general-error').style.display = 'block';
+    } else {
+        // Otherwise an the error message
+        document.getElementById('loading').innerHTML = "ERROR: can't load projects";
     }
 }

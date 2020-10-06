@@ -41,3 +41,7 @@ main {
 	margin-top: 25vh;
 	font-size: 1.5em;
 }
+
+main a {
+	color: #9e9e9e;
+}
