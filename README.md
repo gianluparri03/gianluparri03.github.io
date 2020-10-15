@@ -1,19 +1,9 @@
 # gianluparri03.github.io
 
+![Preview](index.png)
+
 This is the repo for my portfolio, available at [gianluparri03.github.io](https://gianluparri03.github.io).
+I used a [Font Awesome](https://fontawesome.com/) icon in it.
 
-The [project section](https://gianluparri03.github.io/projects.html) automatically fetches and parses the projects from [a GitHub gist](https://gist.github.com/gianluparri03/d3ed8d776078554b37c77687aec54010).
-
----
-
-## TODO
-
-Here's the list of the things I should add, if you want to make a pull request.
-
-- [ ] Light mode
-- [ ] Skills page
-- [ ] More responsiveness
-
----
-
-For this website I used [Hack](https://sourcefoundry.org/hack/), a monospace font from [Source Foundry](https://sourcefoundry.org).
+It supports multiple color schemes, if you want to add one just make a pull request and edit the first lines of [color_schemes.js](color_schemes.js)
+to add it _(every element of `schemes` is a color scheme, represented by the background color, the texts color and the links color, in this order)_.

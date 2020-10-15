@@ -1,0 +1,48 @@
+html, body {
+	max-height: 100%;
+	margin: 5vh 3vw 5vh 3vw;
+
+	font-family: monospace;
+    font-size: 1.2em;
+	background-color: var(--background);
+	color: var(--text);
+}
+
+a {
+	color: var(--link);
+	text-decoration: none;
+}
+
+a:hover { 
+	background-color: var(--text);
+	color: var(--background);
+}
+
+span {
+    display: block;
+}
+
+main {
+	margin-top: 10vh;
+	margin-bottom: 7vh;
+	font-size: 1.1em;
+}
+
+#title {
+	padding-bottom: 0;
+	font-size: 2.5em;
+}
+
+.fa-palette {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    font-size: 1.3em;
+}
+
+.fa-palette:hover {
+    color: var(--link);
+    cursor: pointer;
+}

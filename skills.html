@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>~/skills.html</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Gianluca 'gianluparri03' Parri's Portfolio">
+		<meta name="author" content="Gianluca Parri">
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <script src="https://kit.fontawesome.com/ca194095ec.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="style.css">
+        <script src="color_schemes.js"></script>
+	</head>
+
+	<body>
+        <div id="title"><a href="index.html">&lt;</a> Skills</div>
+
+		<main>
+            <div class="section">
+                <span class="section-name">Languages</span>
+
+                <span class="section-element">Python <small>(the first I learnt seriously)</small></span>
+                <span class="section-element">Go <small>(the second one, probably my favourite)</small></span>
+                <span class="section-element">Ruby <small>(I like the syntax, but I've never used)</small></span>
+                <span class="section-element">Rust <small>(learning on my own)</small></span>
+                <span class="section-element">C <small>(learning it @ school)</small></span>
+                <span class="section-element">JS <small>(used just to make stupid animations)</small></span>
+            </div>
+
+            <div class="section">
+                <span class="section-name">Technologies</span>
+
+                <span class="section-element">REST APIs <small>(used in most of my projects)</small></span>
+                <span class="section-element">Websockets <small>(used twice, but really funny)</small></span>
+                <span class="section-element">GUIs <small>(with PyQt)</small></span>
+            </div>
+        </main>
+	</body>
+
+    <style>
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (orientation: portrait) {
+            main {
+                flex-direction: column;
+            }
+
+            .section {
+                padding-top: 5vh;
+            }
+        }
+
+        .section-name {
+            display: block;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding-bottom: 2vh;
+        }
+        
+        .section-element {
+            display: block;
+        }
+
+        .section-element:before {
+            content: "> ";
+            display: inline;
+        }
+    </style>
+</html>
