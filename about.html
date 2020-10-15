@@ -22,7 +22,7 @@
 
 		<main>
             <span class="line">Hi.</span>
-            <span class="line">I'm Gianluca Parri, aka @gianluparri03, a 16 years old developer.</span>
+            <span class="line">I'm Gianluca Parri, aka @gianluparri03, a <span id="age"></span> years old developer.</span>
             <span class="line">My first codes were for arduino, then I moved on Python, then Go and</span>
             <span class="line">so on. I really like learning new languages and trying new technologies.</span>
             <span class="line"></span>
@@ -50,5 +50,28 @@
             border-right: 1px solid;
             padding-right: 1vw;
         }
+
+        #age {
+            display: inline;
+        }
     </style>
+
+    <script>
+        // Automatically sets the age
+        window.onload = function() {
+            // Gets today's date
+            let today = new Date();
+
+            // Calculates the age
+            let age;
+            if (today.getMonth() > 1 || (today.getMonth() == 1 && today.getDate() >= 5)) {
+                age = today.getFullYear() - 2004;
+            } else {
+                age = today.getFullYear() - 2005;
+            }
+
+            // Writes it in the text
+            document.getElementById("age").innerHTML = age;
+        }
+    </script>
 </html>
