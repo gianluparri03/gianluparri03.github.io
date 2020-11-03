@@ -21,57 +21,76 @@
         <div id="title"><a href="index.html">&lt;</a> Skills</div>
 
 		<main>
-            <div class="section">
-                <span class="section-name">Languages</span>
+            <div id="horizontal">
+                <div class="section">
+                    <span><span class="deco">Languages</span></span>
+                    <span><span class="deco">-------------------------</span></span>
+                    <span>Python <small>(the first I learnt seriously)</small></span>
+                    <span>Go <small>(the second one, probably my favourite)</small></span>
+                    <span>Ruby <small>(I like the syntax, but I've never used)</small></span>
+                    <span>C <small>(learning @ school)</small></span>
+                    <span>JS <small>(used just to make stupid animations)</small></span>
+                </div>
 
-                <span class="section-element">Python <small>(the first I learnt seriously)</small></span>
-                <span class="section-element">Go <small>(the second one, probably my favourite)</small></span>
-                <span class="section-element">Ruby <small>(I like the syntax, but I've never used)</small></span>
-                <span class="section-element">Rust <small>(learning on my own)</small></span>
-                <span class="section-element">C <small>(learning it @ school)</small></span>
-                <span class="section-element">JS <small>(used just to make stupid animations)</small></span>
+                <div class="section">
+                    <span><span class="deco">| Technologies</span></span>
+                    <span><span class="deco">| -------------------------</span></span>
+                    <span><span class="deco">| </span>REST APIs <small>(used in most of my projects)</small></span>
+                    <span><span class="deco">| </span>Websockets <small>(used twice, but really funny)</small></span>
+                    <span><span class="deco">| </span>GUIs <small>(with PyQt)</small></span>
+                    <span><span class="deco">&lt;</span></span>
+                    <span><span class="deco">&lt;</span></span>
+                </div>
             </div>
 
-            <div class="section">
-                <span class="section-name">Technologies</span>
-
-                <span class="section-element">REST APIs <small>(used in most of my projects)</small></span>
-                <span class="section-element">Websockets <small>(used twice, but really funny)</small></span>
-                <span class="section-element">GUIs <small>(with PyQt)</small></span>
+            <div id="vertical">
+                <div class="section">
+                    <span><span class="deco">1,7c1,5</span></span>
+                    <span><span class="deco">&lt; Languages</span></span>
+                    <span><span class="deco">&lt; -------------------------</span></span>
+                    <span><span class="deco">&lt; </span>Python <small>(the first I learnt seriously)</small></span>
+                    <span><span class="deco">&lt; </span>Go <small>(the second one, probably my favourite)</small></span>
+                    <span><span class="deco">&lt; </span>Ruby <small>(I like the syntax, but I've never used)</small></span>
+                    <span><span class="deco">&lt; </span>C <small>(learning @ school)</small></span>
+                    <span><span class="deco">&lt; </span>JS <small>(used just to make stupid animations)</small></span>
+                    <span><span class="deco">---</span></span>
+                    <span><span class="deco">&gt; </span>Technologies</span>
+                    <span><span class="deco">&gt; </span>-------------------------</span>
+                    <span><span class="deco">&gt; </span>REST APIs <small>(used in most of my projects)</small></span>
+                    <span><span class="deco">&gt; </span>Websockets <small>(used twice, but really funny)</small></span>
+                    <span><span class="deco">&gt; </span>GUIs <small>(with PyQt)</small></span>
+                    <span><span class="deco">&gt; </span></span>
+                    <span><span class="deco">&gt; </span></span>
+                </div>
             </div>
         </main>
 	</body>
 
     <style>
-        main {
-            display: flex;
-            justify-content: space-between;
-        }
-
         @media (orientation: portrait) {
-            main {
-                flex-direction: column;
+            #horizontal {
+                display: none;
             }
 
-            .section {
-                padding-top: 5vh;
+            #vertical {
+                display: unset;
             }
         }
 
-        .section-name {
-            display: block;
-            font-size: 1.3em;
-            font-weight: bold;
-            padding-bottom: 2vh;
-        }
-        
-        .section-element {
-            display: block;
+        @media (orientation: landscape) {
+            #horizontal {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #vertical {
+                display: none;
+            }
         }
 
-        .section-element:before {
-            content: "> ";
+        .deco {
             display: inline;
+            font-weight: bold;
         }
     </style>
 </html>
