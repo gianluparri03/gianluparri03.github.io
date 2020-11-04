@@ -9,7 +9,7 @@ This is the repo for my portfolio, available at [gianluparri03.github.io](https:
 Each page is, or is going to be, an output of a bash command or is written in a specific syntax. Here's the list:
 
 * **index.html:** `tree`
-* **about.html:** a text editor
+* **about.html:** `vim`
 * **skills.html** `diff` (with `-y` in horizontal screens)
 * **projects.html:** _ehm_
 * **contacts.html:** a `json` file

@@ -30,6 +30,11 @@
             <span class="line">I really like reading, especially sci-fi and fantasy novels (mainly from</span>
             <span class="line">Michael Crichton, Rick Riordan and JK Rowling), but sometimes I read books</span>
             <span class="line">of other genres too. I also love watching any type of movies.</span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="status-line"><span>-- INSERT --</span><span>9,29          All</span></span>
         </main>
 	</body>
 
@@ -38,17 +43,28 @@
             counter-reset: lineno;
         }
 
-        .line {
+        .line, .status-line {
             white-space: nowrap;
         }
 
         .line:before {
             counter-increment: lineno;
             content: counter(lineno);
-
-            margin-right: 2vw;
-            border-right: 1px solid;
             padding-right: 1vw;
+            padding-left: 1vw;
+            font-weight: bold;
+        }
+
+        .empty-line:before {
+            content: "~";
+            padding-right: 1vw;
+            font-weight: bold;
+        }
+
+        .status-line {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
         }
 
         #age {
@@ -56,22 +72,19 @@
         }
     </style>
 
-    <script>
-        // Automatically sets the age
-        window.onload = function() {
-            // Gets today's date
-            let today = new Date();
+    <script defer>
+        // Gets today's date
+        let today = new Date();
 
-            // Calculates the age
-            let age;
-            if (today.getMonth() > 1 || (today.getMonth() == 1 && today.getDate() >= 5)) {
-                age = today.getFullYear() - 2004;
-            } else {
-                age = today.getFullYear() - 2005;
-            }
-
-            // Writes it in the text
-            document.getElementById("age").innerHTML = age;
+        // Calculates the age
+        let age;
+        if (today.getMonth() > 1 || (today.getMonth() == 1 && today.getDate() >= 5)) {
+            age = today.getFullYear() - 2004;
+        } else {
+            age = today.getFullYear() - 2005;
         }
+
+        // Writes it in the text
+        document.getElementById("age").innerHTML = age;
     </script>
 </html>
