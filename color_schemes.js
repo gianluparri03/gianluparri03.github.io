@@ -17,7 +17,7 @@ window.onload = function () {
     let paletteButton = document.createElement("i");
     paletteButton.classList.add("fas");
     paletteButton.classList.add("fa-palette");
-    paletteButton.onclick = changePalette;
+    paletteButton.onclick = () => changePalette(false);
     document.getElementsByTagName("main")[0].appendChild(paletteButton);
 }
 
