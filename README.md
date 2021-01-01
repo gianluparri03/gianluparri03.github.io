@@ -11,8 +11,8 @@ Each page is, or is going to be, an output of a bash command or is written in a 
 * **index.html:** `tree`
 * **about.html:** `vim`
 * **skills.html** `diff` (with `-y` in horizontal screens)
-* **projects.html:** _ehm_
-* **contacts.html:** a `json` file
+* **projects.html:** `json`
+* **contacts.html:** `xml`
 
 ## Color Schemes
 
