@@ -26,7 +26,7 @@ Currently it supports 5 color schemes:
 | **Nature** |    `#E8F5E9`   | `#2E7D32` | `#4CAF50` |
 |  **Pony**  |    `#FCE4EC`   | `#AD1457` | `#E91E63` |
 
-If you want to add another one, just add an element to `schemes` (in [color_schemes.js](color_schemes.js)).
+If you want to add another one, just add an element to `schemes` (in [themes.js](assets/themes.js)).
 
 ## Credits
 
