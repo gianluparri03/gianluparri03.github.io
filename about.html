@@ -3,47 +3,38 @@
 <html>
     <head>
         <title>about.html</title>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Gianluca 'gianluparri03' Parri's Portfolio">
         <meta name="author" content="Gianluca Parri">
         <link rel="shortcut icon" href="assets/favicon.ico">
-
         <script src="https://kit.fontawesome.com/ca194095ec.js" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="assets/style.css">
-        <script src="assets/themes.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="themes.js"></script>
     </head>
 
     <body>
         <div id="title"><a href="index.html">&lt;</a> About</div>
 
         <main>
-            <span class="line">Hi!</span>
-            <span class="line"></span>
-            <span class="line">I'm Gianluca Parri, aka @gianluparri03, a 17 years old developer.</span>
-            <span class="line">I started coding with Arduino and then I moved to python and now</span>
-            <span class="line">I'm trying to master go. I really enjoy trying new technologies and</span>
-            <span class="line">learn something everyday.</span>
-            <span class="line"></span>
-            <span class="line">When I'm not programming I really like reading and watching films</span>
-            <span class="line">and TV series and I'm a fan of motorsport in general.</span>
-            <span class="empty-line"></span>
-            <span class="empty-line"></span>
-            <span class="empty-line"></span>
-            <span class="status-line"><span>-- INSERT --</span><span>9,54          All</span></span>
+            <div class="line">Hi!</div>
+            <div class="line"></div>
+            <div class="line">I'm Gianluca Parri, aka @gianluparri03, a <span id="age"></span> years old developer.</div>
+            <div class="line">I started coding with Arduino and then I moved to python and now</div>
+            <div class="line">I'm trying to master go. I really enjoy trying new technologies and</div>
+            <div class="line">learn something everyday.</div>
+            <div class="line"></div>
+            <div class="line">When I'm not programming I really like reading and watching films</div>
+            <div class="line">and TV series and I'm a fan of motorsport in general.</div>
+            <div class="empty-line"></div> <div class="empty-line"></div> <div class="empty-line"></div>
+            <div class="status-line"><span>-- INSERT --</span><span>9,54          All</span></div>
         </main>
     </body>
 
     <style>
-        main {
-            counter-reset: lineno;
-        }
+        main { counter-reset: lineno; }
 
-        .line, .status-line {
-            white-space: nowrap;
-        }
+        .line, .status-line { white-space: nowrap; }
 
         .line:before {
             counter-increment: lineno;
@@ -63,10 +54,6 @@
             display: flex;
             justify-content: space-between;
             font-weight: bold;
-        }
-
-        #age {
-            display: inline;
         }
     </style>
 
